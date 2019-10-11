@@ -1,0 +1,401 @@
+@media only screen and (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .container-fluid {
+        max-width: 100vw;
+    }
+    main {
+        position: relative;
+    }
+    .main__container {
+        position: relative;
+    }
+    .container-fluid {
+        width: 100vw;
+    }
+    .svg-01 {
+        position: absolute;
+        top: 0;
+        z-index: 0;
+    }
+    h1 {
+        font-family: $raleway;
+        font-weight: $bold;
+        font-size: 50px;
+    }
+    p {
+        font-family: $raleway;
+        font-weight: $regular;
+    }
+    span {
+        display: inline-block;
+    }
+    .caja2 {
+        padding: 40vw 2rem 8rem 2rem;
+        h1 {
+            text-align: center;
+            font-family: $raleway;
+        }
+    }
+    .object__container-1 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        overflow: hidden;
+    }
+    .object__child-1 {
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        animation: fadeInup 1s ease-in-out 0s forwards;
+    }
+    .object__child-1 object.object__svg {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    @keyframes fadeInup {
+        from {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+    }
+    .object__container-2 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .object__child--2 {
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        text-align: left;
+    }
+    .svg-03 {
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+    }
+    .caja3 {
+        margin-top: 20rem;
+    }
+    // FOOTER //@ 
+    footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        background-color: $raising_black;
+        color: white;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        height: 8rem;
+    }
+    .footer__one {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    a {
+        font-family: $raleway;
+        text-decoration: none;
+        color: black;
+        padding: 0 1rem;
+        color: white;
+    }
+    .footer__two {
+        font-family: $raleway;
+    }
+    .row__texto {
+        margin-left: 7rem;
+        margin-top: 4rem;
+    }
+    .svg-02 {
+        margin-right: 3rem;
+    }
+    .esp {
+        padding: 0 4rem;
+        margin-left: 3rem;
+        font-family: $raleway;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+    .container-fluid {
+        max-width: 100vw;
+    }
+    main {
+        position: relative;
+    }
+    .main__container {
+        position: relative;
+    }
+    .container-fluid {
+        width: 100vw;
+    }
+    .svg-01 {
+        position: absolute;
+        top: 0;
+        z-index: 0;
+    }
+    h1 {
+        font-family: $raleway;
+        font-weight: $bold;
+        font-size: 50px;
+    }
+    p {
+        font-family: $raleway;
+        font-weight: $regular;
+    }
+    span {
+        display: inline-block;
+    }
+    .caja2 {
+        padding: 40vw 2rem 8rem 2rem;
+        h1 {
+            text-align: center;
+            font-family: $raleway;
+        }
+    }
+    .object__container-1 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        overflow: hidden;
+    }
+    .object__child-1 {
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        animation: fadeInup 1s ease-in-out 0s forwards;
+    }
+    .object__child-1 object.object__svg {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    @keyframes fadeInup {
+        from {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+    }
+    .object__container-2 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .object__child--2 {
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        text-align: left;
+    }
+    .svg-03 {
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+    }
+    .caja3 {
+        margin-top: 20rem;
+    }
+    // FOOTER //@ 
+    footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        background-color: $raising_black;
+        color: white;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        height: 8rem;
+    }
+    .footer__one {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    a {
+        font-family: $raleway;
+        text-decoration: none;
+        color: black;
+        padding: 0 1rem;
+        color: white;
+    }
+    .footer__two {
+        font-family: $raleway;
+    }
+    .row__texto {
+        margin-left: 7rem;
+        margin-top: 4rem;
+    }
+    .svg-02 {
+        margin-right: 3rem;
+    }
+    .esp {
+        padding: 0 4rem;
+        margin-left: 3rem;
+        font-family: $raleway;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+    .container-fluid {
+        max-width: 100vw;
+    }
+    main {
+        position: relative;
+    }
+    .main__container {
+        position: relative;
+    }
+    .container-fluid {
+        width: 100vw;
+    }
+    .svg-01 {
+        position: absolute;
+        top: 0;
+        z-index: 0;
+    }
+    h1 {
+        font-family: $raleway;
+        font-weight: $bold;
+        font-size: 50px;
+    }
+    p {
+        font-family: $raleway;
+        font-weight: $regular;
+    }
+    span {
+        display: inline-block;
+    }
+    .caja2 {
+        padding: 40vw 2rem 8rem 2rem;
+        h1 {
+            text-align: center;
+            font-family: $raleway;
+        }
+    }
+    .object__container-1 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        overflow: hidden;
+    }
+    .object__child-1 {
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        animation: fadeInup 1s ease-in-out 0s forwards;
+    }
+    .object__child-1 object.object__svg {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    @keyframes fadeInup {
+        from {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 0%, 0);
+            transform: translate3d(0, 0%, 0);
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+    }
+    .object__container-2 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .object__child--2 {
+        width: 400px;
+        height: 250px;
+        padding: 20px;
+        text-align: left;
+    }
+    .svg-03 {
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+    }
+    .caja3 {
+        margin-top: 20rem;
+    }
+    // FOOTER //@ 
+    footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        background-color: $raising_black;
+        color: white;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        height: 8rem;
+    }
+    .footer__one {
+        padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    a {
+        font-family: $raleway;
+        text-decoration: none;
+        color: black;
+        padding: 0 1rem;
+        color: white;
+    }
+    .footer__two {
+        font-family: $raleway;
+    }
+    .row__texto {
+        margin-left: 7rem;
+        margin-top: 4rem;
+    }
+    .svg-02 {
+        margin-right: 3rem;
+    }
+    .esp {
+        padding: 0 4rem;
+        margin-left: 3rem;
+        font-family: $raleway;
+    }
+}
